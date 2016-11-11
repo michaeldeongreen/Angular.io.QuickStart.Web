@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\dashboard.component.html" />
+    <Content Include="app\hero-detail.component.html" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="tsconfig.json" />
