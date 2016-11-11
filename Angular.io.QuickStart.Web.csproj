@@ -68,8 +68,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.component.css" />
+    <Content Include="app\dashboard.component.css" />
     <Content Include="app\dashboard.component.html" />
+    <Content Include="app\hero-detail.component.css" />
     <Content Include="app\hero-detail.component.html" />
+    <Content Include="app\heroes.component.css" />
+    <Content Include="app\heroes.component.html" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="tsconfig.json" />
@@ -91,6 +96,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="app\app-routing.module.ts" />
     <TypeScriptCompile Include="app\app.component.spec.ts" />
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\dashboard.component.ts" />
