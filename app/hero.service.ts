@@ -8,7 +8,7 @@ import 'rxjs/add/operator/toPromise';
 
 @Injectable()
 export class HeroService {
-    private heroesUrl = 'http://angularioquickstartwebapi.azurewebsites.net/api/heroes';
+    private heroesUrl = 'http://angulariotourofheroeswebapi.azurewebsites.net/api/heroes';
 
     private headers = new Headers({ 'Content-Type': 'application/json' });
 
